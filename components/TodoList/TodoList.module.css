@@ -1,0 +1,93 @@
+.todoWrapper{
+    background-color: black;
+    min-height: 90vh;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+}
+
+.title{
+    margin-left: 163px;
+    max-width: 80%;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-weight: 500;
+    border: 1px solid yellow;
+    margin-top: 10px;
+}
+
+.todoBody{
+    margin-left: 163px;
+    max-width: 80%;
+    margin-top: 20px;
+    /* border: 1px solid white; */
+}
+
+.list{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.listContainer{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.listItem{
+    display: flex;
+    align-items: center;
+    color:white;    
+    height: 80px;
+    width: 50%;
+    border: 1px solid white;
+}
+.editbutton{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    height: 67px;
+    max-width: 100%;
+    background-color: #4F46E5;
+}
+
+.formbutton{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    color:white;
+    background: green;
+}
+
+.forminput{
+    margin: 10px;
+}
+
+.pendingstatus{
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.comstatus{
+    border: 1px solid green;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.row{
+    width: 100%;
+}

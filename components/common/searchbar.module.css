@@ -1,0 +1,20 @@
+.Serchform{
+    max-width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.Serchinput{
+    border-radius: 10px;
+    padding: 5px;
+    margin:10px 10px 10px auto ;
+    transition: width 2s;
+}
+
+.Serchinput:focus{
+    outline-color: blueviolet;
+    width: 250px; 
+}
+.Serchinput::placeholder{
+    margin-left: 20px;
+}
