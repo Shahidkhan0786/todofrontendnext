@@ -2,7 +2,7 @@ import React from 'react'
 const axios = require('axios').default;
 
 const getTodoitems =  async ()=>{
-    const data= await axios.get('http://localhost:8000/api/todos');
+    const data= await axios.get(`${process.env.NEXT_PUBLIC_api}/todos`);
     console.log(data)
     return data;
 }
