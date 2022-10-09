@@ -56,7 +56,7 @@ const handleChange = (e)=>{
   useEffect( () => { 
     async function fetchTodo() {
         try {
-            const {data} = await axios.get('http://localhost:8000/api/todos'); 
+            const {data} = await axios.get(`${process.env.NEXT_PUBLIC_api}/todos`); 
             console.log("useeffect" , data.data)
             setTodo(data.data);
         } catch (err) {
